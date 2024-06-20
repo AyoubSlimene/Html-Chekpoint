@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar  {
+    display: flex; /* to remove the points next to the texts*/
+    flex-direction: row;
+    justify-content: center /* move the content to the center of the screen */;
+    align-items: center;
+    margin-top: 30px;
+    gap: 60px;
+    
+}
+
+.button {
+    border: solid 2px black;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 100px;
+}
+.button:hover {
+    background-color: white;
+  color: black;
+  transition: 0.4s;
+  border: solid 1px black;
+}
+#home {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 100px;
+    gap: 30px;
+  
+    padding-bottom: 20px;
+  }
+  #home h1 {
+    font-size: 170px;
+    width: 70%;
+  }
+  #work {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 200px;
+  }
+  
+  #work h3 {
+    font-size: 80px;
+  }
+  
+
+    
+  
